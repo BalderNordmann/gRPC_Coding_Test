@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC_Client", "gRPC_Client\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC_Server", "gRPC_Server\gRPC_Server.csproj", "{291BBFFD-80D3-41B8-B54E-755BE590A07C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC_Contracts", "gRPC_Contracts\gRPC_Contracts.csproj", "{AAE7F4F9-F073-4C2A-B9E1-48A4CFE128BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{291BBFFD-80D3-41B8-B54E-755BE590A07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{291BBFFD-80D3-41B8-B54E-755BE590A07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{291BBFFD-80D3-41B8-B54E-755BE590A07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE7F4F9-F073-4C2A-B9E1-48A4CFE128BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE7F4F9-F073-4C2A-B9E1-48A4CFE128BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE7F4F9-F073-4C2A-B9E1-48A4CFE128BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE7F4F9-F073-4C2A-B9E1-48A4CFE128BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

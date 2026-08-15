@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcCodingTest.Contracts";
+
+package calculator;
+
+service CalculatorGrpc {
+  rpc Calculate (CalculationRequest) returns (CalculationResponse);
+}
+
+enum CalculationOperation {
+  CALCULATION_OPERATION_UNSPECIFIED = 0;
+  CALCULATION_OPERATION_ADDITION = 1;
+  CALCULATION_OPERATION_SUBTRACTION = 2;
+  CALCULATION_OPERATION_MULTIPLICATION = 3;
+  CALCULATION_OPERATION_DIVISION = 4;
+}
+
+message CalculationRequest {
+  double left_operand = 1;
+  double right_operand = 2;
+  CalculationOperation operation = 3;
+}
+
+message CalculationResponse {
+  double result = 1;
+}

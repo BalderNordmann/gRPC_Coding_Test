@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\services\\grpccalculatorclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\services\\grpccalculatorclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GrpcCalculatorClient.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Services\\GrpcCalculatorClient.cs",
+              "RelativeDocumentMoniker": "gRPC_Client\\Services\\GrpcCalculatorClient.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Services\\GrpcCalculatorClient.cs",
+              "RelativeToolTip": "gRPC_Client\\Services\\GrpcCalculatorClient.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T14:48:33.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculatorController.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Controllers\\CalculatorController.cs",
+              "RelativeDocumentMoniker": "gRPC_Client\\Controllers\\CalculatorController.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Controllers\\CalculatorController.cs",
+              "RelativeToolTip": "gRPC_Client\\Controllers\\CalculatorController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T14:45:46.906Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
