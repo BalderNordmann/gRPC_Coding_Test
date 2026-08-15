@@ -62,4 +62,24 @@ public sealed class CalculatorTests
 
         Assert.Equal(3.75, result);
     }
+
+    [Fact]
+    public void Calculate_RepeatingDecimal_ReturnsResultWithinTolerance()
+    {
+        var result = calculator.Calculate(0.1, 0.2, ArithmeticOperation.Addition);
+
+        Assert.InRange(result, 0.299999999999, 0.300000000001);
+    }
+
+    [Fact]
+    public void Calculate_NotANumber_ThrowsValidationException()
+    {
+        Assert.Throws<CalculationValidationException>(() => calculator.Calculate(double.NaN, 1, ArithmeticOperation.Addition));
+    }
+
+    [Fact]
+    public void Calculate_Infinity_ThrowsValidationException()
+    {
+        Assert.Throws<CalculationValidationException>(() => calculator.Calculate(double.PositiveInfinity, 1, ArithmeticOperation.Addition));
+    }
 }

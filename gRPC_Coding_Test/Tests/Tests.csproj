@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <IsPackable>false</IsPackable>
@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\gRPC_Server\gRPC_Server.csproj" />
     <ProjectReference Include="..\gRPC_Contracts\gRPC_Contracts.csproj" />
+    <ProjectReference Include="..\gRPC_Client\gRPC_Client.csproj" />
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 

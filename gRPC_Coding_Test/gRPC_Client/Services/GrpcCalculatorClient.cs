@@ -4,7 +4,7 @@ using gRPC_Client.Models;
 
 namespace gRPC_Client.Services;
 
-public sealed class GrpcCalculatorClient
+public sealed class GrpcCalculatorClient : ICalculatorGrpcClient
 {
     private const string serverAddress = "https://localhost:7042";
 

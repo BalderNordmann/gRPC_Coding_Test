@@ -8,9 +8,9 @@ namespace gRPC_Client.Controllers;
 
 public sealed class CalculatorController
 {
-    private readonly GrpcCalculatorClient calculatorClient;
+    private readonly ICalculatorGrpcClient calculatorClient;
 
-    public CalculatorController(GrpcCalculatorClient _calculatorClient)
+    public CalculatorController(ICalculatorGrpcClient _calculatorClient)
     {
         calculatorClient = _calculatorClient;
     }

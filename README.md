@@ -79,7 +79,7 @@ Bei leeren oder ungültigen Eingaben zeigt der Client eine Validierungsmeldung. 
 dotnet test
 ```
 
-Die Unit-Tests decken Addition, Subtraktion, Multiplikation, Division, Division durch null, negative Zahlen und Dezimalzahlen ab. Die Integrationstests starten einen Testserver, senden Anfragen mit dem generierten gRPC-Client und prüfen Ergebnis sowie gRPC-Fehlerstatus.
+Die Unit-Tests decken Addition, Subtraktion, Multiplikation, Division, Division durch null, negative Zahlen, Dezimalzahlen mit Toleranz sowie NaN und Infinity ab. Zusaetzliche Controller-Tests pruefen ungueltige Eingaben, fehlende Operationen und nicht erreichbare Server. Die Integrationstests starten einen Testserver, senden Anfragen mit dem generierten gRPC-Client und pruefen Ergebnis sowie gRPC-Fehlerstatus einschliesslich unbekannter und nicht gesetzter Enumwerte.
 
 ## Verwendete Technologien
 

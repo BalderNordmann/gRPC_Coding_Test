@@ -78,4 +78,18 @@ public sealed class ArithmeticServiceIntegrationTests : IAsyncLifetime
 
         Assert.Equal(StatusCode.InvalidArgument, exception.StatusCode);
     }
+
+    [Fact]
+    public async Task Calculate_UnspecifiedOperation_ReturnsInvalidArgument()
+    {
+        var exception = await Assert.ThrowsAsync<RpcException>(async () =>
+            await client.CalculateAsync(new CalculationRequest
+            {
+                LeftOperand = 1,
+                RightOperand = 2,
+                Operation = CalculationOperation.Unspecified
+            }).ResponseAsync);
+
+        Assert.Equal(StatusCode.InvalidArgument, exception.StatusCode);
+    }
 }
