@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "gRPC_Server\\gRPC_Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "gRPC_Client\\gRPC_Client.csproj",
+        "Action": "Start",
+        "DebugTarget": "gRPC_Client"
+      }
+    ]
+  }
+]

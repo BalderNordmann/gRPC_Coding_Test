@@ -50,7 +50,8 @@ public sealed class CalculatorController
     private static bool TryParseNumber(string _input, out double _number)
     {
         var wasParsed = double.TryParse(_input, NumberStyles.Float, CultureInfo.CurrentCulture, out _number)
-            || double.TryParse(_input, NumberStyles.Float, CultureInfo.InvariantCulture, out _number);
+                     || double.TryParse(_input, NumberStyles.Float, CultureInfo.InvariantCulture, out _number);
+
         return wasParsed && !double.IsNaN(_number) && !double.IsInfinity(_number);
     }
 }

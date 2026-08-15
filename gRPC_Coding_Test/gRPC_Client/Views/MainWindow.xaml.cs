@@ -26,18 +26,13 @@ public partial class MainWindow : Window
 
     private CalculationOperation? GetSelectedOperation()
     {
-        return OperationComboBox.SelectedItem is ComboBoxItem { Tag: string selectedOperation }
-            ? selectedOperation switch
-            {
-                "addition" => CalculationOperation.Addition,
-                "subtraction" => CalculationOperation.Subtraction,
-                "multiplication" => CalculationOperation.Multiplication,
-                "division" => CalculationOperation.Division,
-                _ => null
-            }
+        return OperationComboBox.SelectedItem is ComboBoxItem 
+            { Tag: CalculationOperation operation }
+            ? operation
             : null;
     }
 
+    // Prevents invalid characters while the user types into a numeric input field.
     private void NumberTextBox_PreviewTextInput(object _sender, TextCompositionEventArgs _eventArgs)
     {
         if (_sender is TextBox textBox)
@@ -46,6 +41,7 @@ public partial class MainWindow : Window
         }
     }
 
+    // Validates pasted text because PreviewTextInput does not handle paste operations.
     private void NumberTextBox_Pasting(object _sender, DataObjectPastingEventArgs _eventArgs)
     {
         if (_sender is not TextBox textBox || !_eventArgs.DataObject.GetDataPresent(DataFormats.Text))
@@ -65,11 +61,28 @@ public partial class MainWindow : Window
     {
         var candidate = _textBox.Text.Remove(_textBox.SelectionStart, _textBox.SelectionLength)
             .Insert(_textBox.SelectionStart, _newText);
-        return string.IsNullOrEmpty(candidate)
-            || double.TryParse(candidate, NumberStyles.Float, CultureInfo.CurrentCulture, out _)
-            || double.TryParse(candidate, NumberStyles.Float, CultureInfo.InvariantCulture, out _)
-            || candidate is "-" or "+"
-            || candidate.EndsWith(CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator, StringComparison.Ordinal)
-            || candidate.EndsWith(CultureInfo.InvariantCulture.NumberFormat.NumberDecimalSeparator, StringComparison.Ordinal);
+
+        if (string.IsNullOrEmpty(candidate))
+        {
+            return true;
+        }
+
+        if (double.TryParse(candidate, NumberStyles.Float, CultureInfo.CurrentCulture, out _)
+            || double.TryParse(candidate, NumberStyles.Float, CultureInfo.InvariantCulture, out _))
+        {
+            return true;
+        }
+
+        if (candidate is "-" or "+")
+        {
+            return true;
+        }
+
+        if (candidate.EndsWith(CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator, StringComparison.Ordinal))
+        {
+            return true;
+        }
+
+        return candidate.EndsWith(CultureInfo.InvariantCulture.NumberFormat.NumberDecimalSeparator, StringComparison.Ordinal);
     }
 }
