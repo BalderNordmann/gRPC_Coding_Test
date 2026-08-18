@@ -3,10 +3,16 @@ using Xunit;
 
 namespace Tests;
 
+/// <summary>
+/// Verifies the server-side calculator's arithmetic and input validation behavior.
+/// </summary>
 public sealed class CalculatorTests
 {
     private readonly Calculator calculator = new();
 
+    /// <summary>
+    /// Verifies that addition returns the expected result.
+    /// </summary>
     [Fact]
     public void Calculate_Addition_ReturnsCorrectResult()
     {
@@ -15,6 +21,9 @@ public sealed class CalculatorTests
         Assert.Equal(5, result);
     }
 
+    /// <summary>
+    /// Verifies that subtraction returns the expected result.
+    /// </summary>
     [Fact]
     public void Calculate_Subtraction_ReturnsCorrectResult()
     {
@@ -23,6 +32,9 @@ public sealed class CalculatorTests
         Assert.Equal(4, result);
     }
 
+    /// <summary>
+    /// Verifies that multiplication returns the expected result.
+    /// </summary>
     [Fact]
     public void Calculate_Multiplication_ReturnsCorrectResult()
     {
@@ -31,6 +43,9 @@ public sealed class CalculatorTests
         Assert.Equal(10, result);
     }
 
+    /// <summary>
+    /// Verifies that division returns the expected result.
+    /// </summary>
     [Fact]
     public void Calculate_Division_ReturnsCorrectResult()
     {
@@ -39,6 +54,9 @@ public sealed class CalculatorTests
         Assert.Equal(3, result);
     }
 
+    /// <summary>
+    /// Verifies that division by zero is rejected as invalid input.
+    /// </summary>
     [Fact]
     public void Calculate_DivisionByZero_ThrowsValidationException()
     {
@@ -47,6 +65,9 @@ public sealed class CalculatorTests
         Assert.Equal("Division durch null ist nicht erlaubt.", exception.Message);
     }
 
+    /// <summary>
+    /// Verifies that negative operands are calculated correctly.
+    /// </summary>
     [Fact]
     public void Calculate_NegativeNumbers_ReturnsCorrectResult()
     {
@@ -55,6 +76,9 @@ public sealed class CalculatorTests
         Assert.Equal(-3, result);
     }
 
+    /// <summary>
+    /// Verifies that decimal operands are calculated correctly.
+    /// </summary>
     [Fact]
     public void Calculate_DecimalNumbers_ReturnsCorrectResult()
     {
@@ -63,6 +87,9 @@ public sealed class CalculatorTests
         Assert.Equal(3.75, result);
     }
 
+    /// <summary>
+    /// Verifies floating-point addition within an appropriate precision tolerance.
+    /// </summary>
     [Fact]
     public void Calculate_RepeatingDecimal_ReturnsResultWithinTolerance()
     {
@@ -71,12 +98,18 @@ public sealed class CalculatorTests
         Assert.InRange(result, 0.299999999999, 0.300000000001);
     }
 
+    /// <summary>
+    /// Verifies that NaN is rejected as an invalid operand.
+    /// </summary>
     [Fact]
     public void Calculate_NotANumber_ThrowsValidationException()
     {
         Assert.Throws<CalculationValidationException>(() => calculator.Calculate(double.NaN, 1, ArithmeticOperation.Addition));
     }
 
+    /// <summary>
+    /// Verifies that infinity is rejected as an invalid operand.
+    /// </summary>
     [Fact]
     public void Calculate_Infinity_ThrowsValidationException()
     {

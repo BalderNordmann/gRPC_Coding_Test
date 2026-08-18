@@ -4,17 +4,23 @@ using gRPC_Server.Logic;
 
 namespace gRPC_Server.Services;
 
+/// <summary>
+/// Implements the calculator gRPC endpoint and translates domain errors to gRPC statuses.
+/// </summary>
 public sealed class ArithmeticService : CalculatorGrpc.CalculatorGrpcBase
 {
     private readonly Calculator calculatorLogic;
     private readonly ILogger<ArithmeticService> serviceLogger;
-
+        
     public ArithmeticService(Calculator _calculator, ILogger<ArithmeticService> _logger)
     {
         calculatorLogic = _calculator;
         serviceLogger = _logger;
     }
 
+    /// <summary>
+    /// Calculates the requested result or returns a suitable gRPC error for invalid or unexpected failures.
+    /// </summary>
     public override Task<CalculationResponse> Calculate(CalculationRequest _request, ServerCallContext _context)
     {
         try
@@ -34,6 +40,9 @@ public sealed class ArithmeticService : CalculatorGrpc.CalculatorGrpcBase
         }
     }
 
+    /// <summary>
+    /// Converts the protobuf operation value to the internal calculation operation.
+    /// </summary>
     private static ArithmeticOperation MapOperation(CalculationOperation _operation)
     {
         return _operation switch

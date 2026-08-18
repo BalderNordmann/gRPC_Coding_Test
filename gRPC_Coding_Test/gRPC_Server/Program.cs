@@ -1,6 +1,7 @@
 using gRPC_Server.Logic;
 using gRPC_Server.Services;
 
+// Configures and starts the gRPC server application.
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

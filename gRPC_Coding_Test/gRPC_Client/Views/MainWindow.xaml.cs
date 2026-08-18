@@ -8,15 +8,24 @@ using gRPC_Client.Services;
 
 namespace gRPC_Client.Views;
 
+/// <summary>
+/// Provides the calculator user interface and handles its input events.
+/// </summary>
 public partial class MainWindow : Window
 {
     private readonly CalculatorController calculatorController = new(new GrpcCalculatorClient());
 
+    /// <summary>
+    /// Initializes the window and its XAML-defined controls.
+    /// </summary>
     public MainWindow()
     {
         InitializeComponent();
     }
 
+    /// <summary>
+    /// Submits the entered operands and selected operation, then displays the returned message.
+    /// </summary>
     private async void SubmitButton_Click(object _sender, RoutedEventArgs _eventArgs)
     {
         var operation = GetSelectedOperation();
@@ -24,6 +33,9 @@ public partial class MainWindow : Window
         ResponseTextBox.Text = result.Message;
     }
 
+    /// <summary>
+    /// Returns the operation stored in the selected combo-box item, if one is available.
+    /// </summary>
     private CalculationOperation? GetSelectedOperation()
     {
         return OperationComboBox.SelectedItem is ComboBoxItem 
@@ -32,7 +44,9 @@ public partial class MainWindow : Window
             : null;
     }
 
-    // Prevents invalid characters while the user types into a numeric input field.
+    /// <summary>
+    /// Prevents invalid characters while the user types into a numeric input field.
+    /// </summary>
     private void NumberTextBox_PreviewTextInput(object _sender, TextCompositionEventArgs _eventArgs)
     {
         if (_sender is TextBox textBox)
@@ -41,7 +55,9 @@ public partial class MainWindow : Window
         }
     }
 
-    // Validates pasted text because PreviewTextInput does not handle paste operations.
+    /// <summary>
+    /// Cancels pasted text that would make a numeric input field invalid.
+    /// </summary>
     private void NumberTextBox_Pasting(object _sender, DataObjectPastingEventArgs _eventArgs)
     {
         if (_sender is not TextBox textBox || !_eventArgs.DataObject.GetDataPresent(DataFormats.Text))
@@ -57,6 +73,9 @@ public partial class MainWindow : Window
         }
     }
 
+    /// <summary>
+    /// Checks whether inserting text into a field produces a valid or valid-in-progress number.
+    /// </summary>
     private static bool IsValidNumberInput(TextBox _textBox, string _newText)
     {
         var candidate = _textBox.Text.Remove(_textBox.SelectionStart, _textBox.SelectionLength)

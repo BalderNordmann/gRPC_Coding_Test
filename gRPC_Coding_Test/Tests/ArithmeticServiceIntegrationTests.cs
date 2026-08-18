@@ -10,12 +10,18 @@ using Xunit;
 
 namespace Tests;
 
+/// <summary>
+/// Verifies the calculator gRPC endpoint through an in-memory ASP.NET Core test server.
+/// </summary>
 public sealed class ArithmeticServiceIntegrationTests : IAsyncLifetime
 {
     private WebApplication application = null!;
     private GrpcChannel channel = null!;
     private CalculatorGrpc.CalculatorGrpcClient client = null!;
 
+    /// <summary>
+    /// Starts the in memory gRPC host and creates a client for each test run.
+    /// </summary>
     public async Task InitializeAsync()
     {
         var builder = WebApplication.CreateBuilder();
@@ -32,12 +38,18 @@ public sealed class ArithmeticServiceIntegrationTests : IAsyncLifetime
         client = new CalculatorGrpc.CalculatorGrpcClient(channel);
     }
 
+    /// <summary>
+    /// Releases the in memory gRPC channel and application host.
+    /// </summary>
     public async Task DisposeAsync()
     {
         channel.Dispose();
         await application.DisposeAsync();
     }
 
+    /// <summary>
+    /// Verifies that a valid gRPC request returns the calculated result.
+    /// </summary>
     [Fact]
     public async Task Calculate_ValidRequest_ReturnsResult()
     {
@@ -51,6 +63,9 @@ public sealed class ArithmeticServiceIntegrationTests : IAsyncLifetime
         Assert.Equal(4, response.Result);
     }
 
+    /// <summary>
+    /// Verifies that division by zero is returned as a gRPC InvalidArgument error.
+    /// </summary>
     [Fact]
     public async Task Calculate_DivisionByZero_ReturnsInvalidArgument()
     {
@@ -65,6 +80,9 @@ public sealed class ArithmeticServiceIntegrationTests : IAsyncLifetime
         Assert.Equal(StatusCode.InvalidArgument, exception.StatusCode);
     }
 
+    /// <summary>
+    /// Verifies that an undefined operation value is returned as a gRPC InvalidArgument error.
+    /// </summary>
     [Fact]
     public async Task Calculate_UnknownOperation_ReturnsInvalidArgument()
     {
@@ -79,6 +97,9 @@ public sealed class ArithmeticServiceIntegrationTests : IAsyncLifetime
         Assert.Equal(StatusCode.InvalidArgument, exception.StatusCode);
     }
 
+    /// <summary>
+    /// Verifies that the default unspecified operation is returned as a gRPC InvalidArgument error.
+    /// </summary>
     [Fact]
     public async Task Calculate_UnspecifiedOperation_ReturnsInvalidArgument()
     {

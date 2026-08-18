@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\services\\arithmeticservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\services\\arithmeticservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\logic\\calculationvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\logic\\calculationvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\logic\\arithmeticoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\logic\\arithmeticoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\logic\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\logic\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}|Tests\\Tests.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}|Tests\\Tests.csproj|solutionrelative:tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}|Tests\\Tests.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\tests\\calculatorcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,48 +15,52 @@
       "RelativeMoniker": "D:0:0:{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}|Tests\\Tests.csproj|solutionrelative:tests\\arithmeticserviceintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}|Tests\\Tests.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44BDF4B-52AF-4897-8A00-5F23A6C648A3}|Tests\\Tests.csproj|solutionrelative:tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\services\\arithmeticservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\services\\arithmeticservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\logic\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\logic\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\logic\\calculationvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\logic\\calculationvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\logic\\arithmeticoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\logic\\arithmeticoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\models\\calculationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\models\\calculationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\models\\calculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\models\\calculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\services\\icalculatorgrpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\services\\icalculatorgrpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\services\\grpccalculatorclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\services\\grpccalculatorclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\models\\calculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\models\\calculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\models\\calculationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\models\\calculationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{291BBFFD-80D3-41B8-B54E-755BE590A07C}|gRPC_Server\\gRPC_Server.csproj|solutionrelative:grpc_server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|c:\\users\\zscho\\documents\\github\\grpc_coding_test\\grpc_coding_test\\grpc_client\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F8963F-261A-4863-B80C-7D374962B84D}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,109 +70,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CalculatorTests.cs",
               "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\CalculatorTests.cs",
               "RelativeDocumentMoniker": "Tests\\CalculatorTests.cs",
               "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\CalculatorTests.cs",
               "RelativeToolTip": "Tests\\CalculatorTests.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T12:35:49.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CalculatorControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\CalculatorControllerTests.cs",
-              "RelativeDocumentMoniker": "Tests\\CalculatorControllerTests.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\CalculatorControllerTests.cs",
-              "RelativeToolTip": "Tests\\CalculatorControllerTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T12:34:38.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Program.cs",
-              "RelativeDocumentMoniker": "gRPC_Server\\Program.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Program.cs",
-              "RelativeToolTip": "gRPC_Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:08:38.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ArithmeticService.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Services\\ArithmeticService.cs",
-              "RelativeDocumentMoniker": "gRPC_Server\\Services\\ArithmeticService.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Services\\ArithmeticService.cs",
-              "RelativeToolTip": "gRPC_Server\\Services\\ArithmeticService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:07:28.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Calculator.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\Calculator.cs",
-              "RelativeDocumentMoniker": "gRPC_Server\\Logic\\Calculator.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\Calculator.cs",
-              "RelativeToolTip": "gRPC_Server\\Logic\\Calculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:06:11.588Z",
+              "WhenOpened": "2026-08-18T11:16:14.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CalculationValidationException.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\CalculationValidationException.cs",
-              "RelativeDocumentMoniker": "gRPC_Server\\Logic\\CalculationValidationException.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\CalculationValidationException.cs",
-              "RelativeToolTip": "gRPC_Server\\Logic\\CalculationValidationException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "CalculatorControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\CalculatorControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\CalculatorControllerTests.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\CalculatorControllerTests.cs",
+              "RelativeToolTip": "Tests\\CalculatorControllerTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADAAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:06:08.241Z",
+              "WhenOpened": "2026-08-18T11:13:21.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ArithmeticOperation.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\ArithmeticOperation.cs",
-              "RelativeDocumentMoniker": "gRPC_Server\\Logic\\ArithmeticOperation.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\ArithmeticOperation.cs",
-              "RelativeToolTip": "gRPC_Server\\Logic\\ArithmeticOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "ArithmeticServiceIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\ArithmeticServiceIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ArithmeticServiceIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\ArithmeticServiceIntegrationTests.cs",
+              "RelativeToolTip": "Tests\\ArithmeticServiceIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:06:03.035Z",
+              "WhenOpened": "2026-08-18T11:12:07.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Program.cs",
+              "RelativeDocumentMoniker": "gRPC_Server\\Program.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Program.cs",
+              "RelativeToolTip": "gRPC_Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T11:12:00.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArithmeticService.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Services\\ArithmeticService.cs",
+              "RelativeDocumentMoniker": "gRPC_Server\\Services\\ArithmeticService.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Services\\ArithmeticService.cs",
+              "RelativeToolTip": "gRPC_Server\\Services\\ArithmeticService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T11:11:04.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\Calculator.cs",
+              "RelativeDocumentMoniker": "gRPC_Server\\Logic\\Calculator.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\Calculator.cs",
+              "RelativeToolTip": "gRPC_Server\\Logic\\Calculator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T10:55:03.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\App.xaml.cs",
+              "RelativeDocumentMoniker": "gRPC_Client\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\App.xaml.cs",
+              "RelativeToolTip": "gRPC_Client\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T10:54:35.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "gRPC_Client\\Views\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "gRPC_Client\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwDsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T15:43:42.812Z"
+              "WhenOpened": "2026-08-18T10:45:45.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICalculatorGrpcClient.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Services\\ICalculatorGrpcClient.cs",
+              "RelativeDocumentMoniker": "gRPC_Client\\Services\\ICalculatorGrpcClient.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Services\\ICalculatorGrpcClient.cs",
+              "RelativeToolTip": "gRPC_Client\\Services\\ICalculatorGrpcClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T10:45:01.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CalculationResult.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationResult.cs",
+              "RelativeDocumentMoniker": "gRPC_Client\\Models\\CalculationResult.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationResult.cs",
+              "RelativeToolTip": "gRPC_Client\\Models\\CalculationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T10:44:50.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CalculationInput.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationInput.cs",
+              "RelativeDocumentMoniker": "gRPC_Client\\Models\\CalculationInput.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationInput.cs",
+              "RelativeToolTip": "gRPC_Client\\Models\\CalculationInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T10:44:46.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CalculatorController.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Controllers\\CalculatorController.cs",
+              "RelativeDocumentMoniker": "gRPC_Client\\Controllers\\CalculatorController.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Controllers\\CalculatorController.cs",
+              "RelativeToolTip": "gRPC_Client\\Controllers\\CalculatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T10:43:23.772Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -190,105 +236,36 @@
               "RelativeDocumentMoniker": "gRPC_Client\\Services\\GrpcCalculatorClient.cs",
               "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Services\\GrpcCalculatorClient.cs",
               "RelativeToolTip": "gRPC_Client\\Services\\GrpcCalculatorClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T14:48:33.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CalculationResult.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationResult.cs",
-              "RelativeDocumentMoniker": "gRPC_Client\\Models\\CalculationResult.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationResult.cs",
-              "RelativeToolTip": "gRPC_Client\\Models\\CalculationResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T15:36:28.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArithmeticServiceIntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\ArithmeticServiceIntegrationTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ArithmeticServiceIntegrationTests.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\Tests\\ArithmeticServiceIntegrationTests.cs",
-              "RelativeToolTip": "Tests\\ArithmeticServiceIntegrationTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:15:24.723Z",
+              "WhenOpened": "2026-08-17T22:40:46.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "gRPC_Client\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\AssemblyInfo.cs",
-              "RelativeToolTip": "gRPC_Client\\AssemblyInfo.cs",
+              "DocumentIndex": 7,
+              "Title": "ArithmeticOperation.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\ArithmeticOperation.cs",
+              "RelativeDocumentMoniker": "gRPC_Server\\Logic\\ArithmeticOperation.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\ArithmeticOperation.cs",
+              "RelativeToolTip": "gRPC_Server\\Logic\\ArithmeticOperation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:13:29.745Z"
+              "WhenOpened": "2026-08-17T22:39:57.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CalculatorController.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Controllers\\CalculatorController.cs",
-              "RelativeDocumentMoniker": "gRPC_Client\\Controllers\\CalculatorController.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Controllers\\CalculatorController.cs",
-              "RelativeToolTip": "gRPC_Client\\Controllers\\CalculatorController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowAoAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CalculationValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\CalculationValidationException.cs",
+              "RelativeDocumentMoniker": "gRPC_Server\\Logic\\CalculationValidationException.cs",
+              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\Logic\\CalculationValidationException.cs",
+              "RelativeToolTip": "gRPC_Server\\Logic\\CalculationValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T14:45:46.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CalculationInput.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationInput.cs",
-              "RelativeDocumentMoniker": "gRPC_Client\\Models\\CalculationInput.cs",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Models\\CalculationInput.cs",
-              "RelativeToolTip": "gRPC_Client\\Models\\CalculationInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T15:36:18.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "gRPC_Server\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\appsettings.Development.json",
-              "RelativeToolTip": "gRPC_Server\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-15T16:08:35.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\appsettings.json",
-              "RelativeDocumentMoniker": "gRPC_Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Server\\appsettings.json",
-              "RelativeToolTip": "gRPC_Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-15T16:08:30.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "gRPC_Client\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\zscho\\Documents\\GitHub\\gRPC_Coding_Test\\gRPC_Coding_Test\\gRPC_Client\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "gRPC_Client\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-15T15:43:18.107Z"
+              "WhenOpened": "2026-08-17T22:39:50.717Z",
+              "EditorCaption": ""
             }
           ]
         }

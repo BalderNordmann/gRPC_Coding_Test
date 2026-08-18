@@ -5,7 +5,7 @@ using System.Windows;
 namespace gRPC_Client
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Provides the WPF application entry point and resources defined in App.xaml.
     /// </summary>
     public partial class App : Application
     {

@@ -6,15 +6,21 @@ using gRPC_Client.Services;
 
 namespace gRPC_Client.Controllers;
 
+/// <summary>
+/// Coordinates UI input validation, the gRPC request, and display-ready results.
+/// </summary>
 public sealed class CalculatorController
 {
     private readonly ICalculatorGrpcClient calculatorClient;
-
+        
     public CalculatorController(ICalculatorGrpcClient _calculatorClient)
     {
         calculatorClient = _calculatorClient;
     }
 
+    /// <summary>
+    /// Validates text input, invokes the calculator service, and converts the outcome into a display message.
+    /// </summary>
     public async Task<CalculationResult> CalculateAsync(string _leftOperandText, string _rightOperandText, CalculationOperation? _operation)
     {
         if (!TryParseNumber(_leftOperandText, out var leftOperand) || !TryParseNumber(_rightOperandText, out var rightOperand))
@@ -47,6 +53,9 @@ public sealed class CalculatorController
         }
     }
 
+    /// <summary>
+    /// Parses a finite number using either the current culture or invariant culture.
+    /// </summary>
     private static bool TryParseNumber(string _input, out double _number)
     {
         var wasParsed = double.TryParse(_input, NumberStyles.Float, CultureInfo.CurrentCulture, out _number)
